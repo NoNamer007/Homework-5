@@ -43,5 +43,17 @@ img {
 .links:hover {
     background-color: lime;
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+a:hover {
+    color: red;
 }
