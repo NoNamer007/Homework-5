@@ -60,7 +60,7 @@ a:hover {
 }
 .hoverable {
     transition: transform 1s;
-    width: 100px;
+    width: 250px;
     margin: auto;
 }
 .hoverable:hover {
