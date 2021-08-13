@@ -18,7 +18,7 @@ body {
 p {
     color: white;
 }
-img {
+#pfp {
     border-radius: 25px;
     width: 200px;
     margin-top: 50px;
@@ -56,4 +56,13 @@ a {
 }
 a:hover {
     color: red;
+    cursor: pointer;
+}
+.hoverable {
+    transition: transform 1s;
+    width: 100px;
+    margin: auto;
+}
+.hoverable:hover {
+    transform: scale(1.2);
 }
